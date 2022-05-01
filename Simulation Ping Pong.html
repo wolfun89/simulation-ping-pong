@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulated Ping Pong</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .loser{
+            color:red
+        }
+        .winner{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img src="img/608614_blog.jpg" alt="Ping Pong image">
+        <h5>Simulation Ping Pong</h5>
+        <h2>
+            <span id="playerDisplay">0</span> to 
+            <span id="computerDisplay">0</span>
+        </h2>
+        <p>Use the button below to keep score</p>
+        <h3>Playing to <select name="dropdown" id="dropdown">
+            <option>3</option>
+            <option>5</option>
+            <option>7</option> 
+            <option>9</option>
+        </select></h3>
+        <button id="playerButton" style="background-color: lightblue;">+1 Human</button> 
+        <button id="reset" style="background-color: palevioletred;">Reset</button> 
+    </main>
+    
+    <script src="Simulation Ping Pong.js"></script>
+</body>
+</html>
